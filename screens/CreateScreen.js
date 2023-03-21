@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { TextInput, Button, View, StyleSheet } from 'react-native';
+import { TextInput, Button, View, StyleSheet, Alert } from 'react-native';
 import { createItem } from '../store/itemSlice';
 
 const CreateScreen = ({ navigation }) => {
